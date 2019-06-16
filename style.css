@@ -1,0 +1,56 @@
+.header {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.white_on_teal {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+#tabs {
+    color:#cccccc;
+}
+
+body {
+    background-image: url(assets/images/prism.png);
+    padding: 0; 
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 20px auto;
+}
+
+h2{
+    color: #4aaaa5;
+}
+
+.btn_con {
+    position: relative;
+    width:200px;
+}
+
+.btn_con img{
+    width: 100%;
+    height: auto;
+}
+
+.btn_con .btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
