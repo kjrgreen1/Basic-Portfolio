@@ -1,4 +1,4 @@
-.header {
+header {
     background-color: #ffffff;
     margin: 0;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -25,9 +25,10 @@ body {
     width: 960px;
     margin: 20px auto;
 }
-
 h2{
     color: #4aaaa5;
+    padding: 20px;
+    font-size: 2em;
 }
 
 .btn_con {
@@ -54,3 +55,20 @@ h2{
     cursor: pointer;
     border-radius: 5px;
   }
+
+.bio-image {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.bio_text {
+    float: left;
+}
+
+p {
+    font-size: 1.25em;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 2em;
+}
