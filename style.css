@@ -16,6 +16,7 @@ header {
     width: 100%;
     height: 160px;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 4px solid #cccccc;
 }
 
 .box{
@@ -72,6 +73,7 @@ h2{
     padding-left: 20px;
     padding-right: 20px;
     overflow: auto;
+    margin-top: 20px;
 }
 
 .btn_con {
