@@ -104,6 +104,33 @@ h2{
     width: 200px;
   }
 
+.contactForm {
+    line-height: 1.5em;
+    color: #777777
+}
+
+input[id=name], [id=email] {
+    width: 907px;
+    padding: 4px;
+    border: 1px solid #777777;
+}
+
+textarea {
+    width: 912px;
+    border: 1px solid #777777;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
 .bio-image {
     float: left;
     margin-right: 20px;
