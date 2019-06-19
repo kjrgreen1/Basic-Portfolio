@@ -42,17 +42,18 @@ header {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 40px;
+    padding-bottom: 40px;
 }
 
-#line {
-    border-right: 1px solid #777777;
+a+a {
+    border-left: 1px solid #777777;
 }
 
 a:link, a:visited {
     color: #777777; 
     text-decoration: none;
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h2{
@@ -79,7 +80,8 @@ h2{
 .btn_con {
     position: relative;
     width:200px;
-    margin: 20px;
+    margin-right: 40px;
+    margin-bottom: 40px;
     float: left;
 }
 
@@ -105,7 +107,6 @@ h2{
   }
 
 .contactForm {
-    line-height: 1.5em;
     color: #777777
 }
 
@@ -113,11 +114,13 @@ input[id=name], [id=email] {
     width: 907px;
     padding: 4px;
     border: 1px solid #777777;
+    margin-bottom: 10px;
 }
 
 textarea {
     width: 912px;
     border: 1px solid #777777;
+    margin-bottom: 10px;
 }
 
 input[type=submit] {
